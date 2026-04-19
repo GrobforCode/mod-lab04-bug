@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Stateless/5.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Stateless.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stateless.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stateless/5.13.0": {
+      "sha512": "M4Rb4b31TUEfhCd4en0WlRfuFgQ2rwva9e1CuXnto5vNGvRsNVimHENnvjegf6nKG9ZH+51McAZ/huqRtTziYg==",
+      "type": "package",
+      "path": "stateless/5.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Stateless.png",
+        "lib/net40/Stateless.dll",
+        "lib/net40/Stateless.xml",
+        "lib/net45/Stateless.dll",
+        "lib/net45/Stateless.xml",
+        "lib/net472/Stateless.dll",
+        "lib/net472/Stateless.xml",
+        "lib/net5.0/Stateless.dll",
+        "lib/net5.0/Stateless.xml",
+        "lib/net6.0/Stateless.dll",
+        "lib/net6.0/Stateless.xml",
+        "lib/netstandard1.0/Stateless.dll",
+        "lib/netstandard1.0/Stateless.xml",
+        "lib/netstandard2.0/Stateless.dll",
+        "lib/netstandard2.0/Stateless.xml",
+        "stateless.5.13.0.nupkg.sha512",
+        "stateless.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Stateless >= 5.13.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\grobo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\grobo\\OneDrive\\Рабочий стол\\Моделирование с Git\\mod-lab04-bug\\BugPro\\BugPro.csproj",
+      "projectName": "BugPro",
+      "projectPath": "C:\\Users\\grobo\\OneDrive\\Рабочий стол\\Моделирование с Git\\mod-lab04-bug\\BugPro\\BugPro.csproj",
+      "packagesPath": "C:\\Users\\grobo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grobo\\OneDrive\\Рабочий стол\\Моделирование с Git\\mod-lab04-bug\\BugPro\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\grobo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Stateless": {
+            "target": "Package",
+            "version": "[5.13.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
